@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Hosting | Landing Page</title>
+</head>
+<body>
+   <!-- NAVBAR -->
+   <section id="navbar" class="relative py-5 px-2">
+
+        <nav class="container mx-auto flex items-center justify-between">
+            <!-- LOGO -->
+            <div>
+                <img src="./images/Logo.png" alt="" class="h-8 md:h-12">
+            </div>
+
+            <!-- MENU -->
+            <div class="hidden md:flex items-center md:space-x-5 lg:space-x-8 text-md" class="text-gray-400">
+                <a href="#">Home</a>
+                <a href="#">Domain</a>
+                <a href="#">Hosting</a>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+                <a href="#">About Us</a>
+                <a href="#" class="border-2 border-primary text-primary rounded-lg px-2 py-2">Register Now</a>
+            </div>
+
+            <!-- HAMBURGER -->
+            <div class="md:hidden">
+                <button id="menu-btn" class="hamburger  z-50">
+                    <div class="hamburger-top"></div>
+                    <div class="hamburger-bottom"></div>
+                </button>
+            </div>
+        </nav>
+        <!-- MENU -->
+        <div id="menu" class="hidden fixed inset-0 bg-primary left-0 top-0 bottom-0 opacity-90 text-white flex flex-col items-center py-20 space-y-10">
+                <a href="#">Home</a>
+                <a href="#">Domain</a>
+                <a href="#">Hosting</a>
+                <a href="#">Features</a>
+                <a href="#">Pricing</a>
+                <a href="#">About Us</a>
+                <a href="#" class="border-2 border-white text-white rounded-lg px-2 py-2">Register Now</a>
+        </div>
+
+   </section>
+
+   <!-- HERO SECTION -->
+   <section id="hero">
+
+    <div class="container mx-auto px-2">
+
+        <!-- ITEM - 1 -->
+        <div class="flex flex-col-reverse items-center md:flex-row">
+            <!-- LEFT -->
+            <div class="w-full md:w-1/2 flex flex-col items-center md:items-start">
+                <h1 class="text-3xl md:text-6xl font-semibold text-center md:text-left">Great website start with unlimited hosting</h1>
+                <p class="text-md md:text-xl py-5 md:py-10 text-center md:text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea accusantium saepe, ab officiis dolore eligendi nulla quo facere ipsa ratione. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, temporibus.</p>
+                <button class="bg-gradient-to-br from-secondary to-primary px-5 py-3 text-white shadow-lg rounded-lg">Choose Package</button>
+            </div>
+            
+            <!-- RIGHT -->
+            <div class="w-full md:w-1/2">
+                <img src="./images/technical support illustration-01.svg" alt="">
+            </div>
+        </div>
+
+        <!-- ITEM - 2 -->
+        <div class="flex flex-col items-center md:flex-row">
+            <!-- LEFT -->
+            <div class="w-full md:w-1/2">
+                <img src="./images/technical support illustration-01.svg" alt="">
+            </div>
+            
+            <!-- RIGHT -->
+            <div class="w-full md:w-1/2 flex flex-col items-center md:items-start">
+                <h1 class="text-3xl md:text-6xl font-semibold text-center md:text-left">We provide the best the quality with low cost</h1>
+                <p class="text-md md:text-xl py-5 md:py-10 text-center md:text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea accusantium saepe, ab officiis dolore eligendi nulla quo facere ipsa ratione. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, temporibus.</p>
+                <button class="bg-gradient-to-br from-secondary to-primary px-5 py-3 text-white shadow-lg rounded-lg">Read More</button>
+            </div>
+        </div>
+
+        <!-- ITEM - 3 -->
+        <div class="flex flex-col-reverse items-center md:flex-row">
+            <!-- LEFT -->
+            <div class="w-full md:w-1/2 flex flex-col items-center md:items-start">
+                <h1 class="text-3xl md:text-6xl font-semibold text-center md:text-left">Number 1 technical support in indonesia</h1>
+                <p class="text-md md:text-xl py-5 md:py-10 text-center md:text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea accusantium saepe, ab officiis dolore eligendi nulla quo facere ipsa ratione. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, temporibus.</p>
+                <button class="bg-gradient-to-br from-secondary to-primary px-5 py-3 text-white shadow-lg rounded-lg">Read More</button>
+            </div>
+            
+            <!-- RIGHT -->
+            <div class="w-full md:w-1/2">
+                <img src="./images/technical support illustration-01.svg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+   </section>
+
+
+
+   <!-- SERVICES HEADING -->
+   <section id="services-heading" class="mb-10 px-2">
+        <div class="container mx-auto">
+
+            <div class="flex flex-col md:flex-row md:justify-between items-center">
+                <h1 class="w-full md:w-1/3 text-3xl md:text-5xl text-center md:text-left mt-10 md:mt-0 font-semibold">Services we provide at Thorhosting</h1>
+                <p class="w-full md:w-2/3 text-gray-400 text-center md:text-left py-4 md:py-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima voluptates non impedit dolorum obcaecati autem dolorem ea eaque Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, magni?</p>
+            </div>
+
+        </div>
+   </section>
+
+
+   <!-- SERVICES CARDS -->
+   <section id="services-cards" class="py-10">
+
+        <div class="container mx-auto">
+
+            <!-- ROW - 1 -->
+            <div class="flex flex-col md:flex-row py-5">
+                <!-- ITEM - 1 -->
+                <div class="w-full md:w-1/3 px-10 flex flex-col items-center md:items-start">
+                    <div>
+                        <img src="./images/COCO/Bold/Cloud.png" alt="">
+                    </div>
+                    <h1 class="text-xl md:text-2xl py-3 font-semibold text-center md:text-left">Unlimited Hosting</h1>
+                    <p class="text-gray-400 text-center md:text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ullam cumque nobis, assumenda tempore fugiat.</p>
+                </div>
+
+                <!-- ITEM - 2 -->
+                <div class="w-full md:w-1/3 px-10 flex flex-col items-center md:items-start py-10 md:py-0">
+                    <div>
+                        <img src="./images/COCO/Bold/Cloud.png" alt="">
+                    </div>
+                    <h1 class="text-xl md:text-2xl py-3 font-semibold text-center md:text-left">Cloud Hosting</h1>
+                    <p class="text-gray-400 text-center md:text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ullam cumque nobis, assumenda tempore fugiat.</p>
+                </div>
+
+                <!-- ITEM - 3 -->
+                <div class="w-full md:w-1/3 px-10 flex flex-col items-center md:items-start">
+                    <div>
+                        <img src="./images/COCO/Bold/Cloud.png" alt="">
+                    </div>
+                    <h1 class="text-xl md:text-2xl py-3 font-semibold text-center md:text-left">Wordpress Hosting</h1>
+                    <p class="text-gray-400 text-center md:text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ullam cumque nobis, assumenda tempore fugiat.</p>
+                </div>
+
+            </div>
+
+            <!-- ROW - 2 -->
+            <div class="flex flex-col md:flex-row py-5">
+                <!-- ITEM - 1 -->
+                <div class="w-full md:w-1/3 px-10 flex flex-col items-center md:items-start">
+                    <div>
+                        <img src="./images/COCO/Bold/Cloud.png" alt="">
+                    </div>
+                    <h1 class="text-xl md:text-2xl py-3 font-semibold text-center md:text-left">Fastest VPS</h1>
+                    <p class="text-gray-400 text-center md:text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ullam cumque nobis, assumenda tempore fugiat.</p>
+                </div>
+
+                <!-- ITEM - 2 -->
+                <div class="w-full md:w-1/3 px-10 flex flex-col items-center md:items-start py-10 md:py-0">
+                    <div>
+                        <img src="./images/COCO/Bold/Cloud.png" alt="">
+                    </div>
+                    <h1 class="text-xl md:text-2xl py-3 font-semibold text-center md:text-left">Domain</h1>
+                    <p class="text-gray-400 text-center md:text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ullam cumque nobis, assumenda tempore fugiat.</p>
+                </div>
+
+                <!-- ITEM - 3 -->
+                <div class="w-full md:w-1/3 px-10 flex flex-col items-center md:items-start">
+                    <div>
+                        <img src="./images/COCO/Bold/Cloud.png" alt="">
+                    </div>
+                    <h1 class="text-xl md:text-2xl py-3 font-semibold text-center md:text-left">Website Builder</h1>
+                    <p class="text-gray-400 text-center md:text-left">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit ullam cumque nobis, assumenda tempore fugiat.</p>
+                </div>
+
+            </div>
+
+        </div>
+   </section>
+
+
+   <!-- Pricing -->
+   <section id="pricing" class="bg-gradient-to-br from-secondary to-primary py-10 px-5">
+
+        <div class="container mx-auto ">
+
+            <h1 class=" text-3xl md:text-5xl text-center text-white mb-20">Flexible & Transparent pricing</h1>
+            
+            <div class="flex flex-col md:flex-row items-center space-x-0 md:space-x-10">
+                <!-- CARD - 1  -->
+                <div class="flex flex-col items-center md:items-start bg-white p-10 w-full md:w-1/3  rounded-lg">
+                    <div class="pb-14">
+                        <h3 class="text-3xl md:text-4xl font-semibold pb-3">Starter pack</h3>
+                        <p class="text-gray-400 class
+                        text-md md:text-lg">Suitable for beginner</p>
+                    </div>
+                    <div class="flex flex-col space-y-5 mb-14 text-lg font-semibold">
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline mr-1">Up to 15000 visitors/month</p>
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline  mr-1">Disk space 500 MB</p>
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline  mr-1">Unlimited Bandwidth</p>
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline  mr-1">Unlimited Database</p>
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline  mr-1">1 Domain</p>
+                    </div>
+                    <div class="mx-auto text-center">
+                        <h1 class="text-2xl md:text-4xl mb-4 font-semibold">$29.99<span class="text-gray-400">/month</span>
+                        </h1>
+                        <p class="text-gray-400 mb-14">Cancel anytime</p>
+                        <button class="border-2 border-primary text-primary px-10 py-2 rounded-lg">Choose Plan</button>
+                    </div>
+                </div>
+
+                <!-- CARD - 2  -->
+                <div class="flex flex-col items-center md:items-start bg-white p-10 w-full md:w-1/3  rounded-lg my-10 md:my-0">
+                    <div class="pb-14">
+                        <h3 class="text-3xl md:text-4xl font-semibold pb-3">Popular Package</h3>
+                        <p class="text-gray-400 class
+                        text-md md:text-lg">Suitable for company, organization</p>
+                    </div>
+                    <div class="flex flex-col space-y-5 mb-14 text-lg font-semibold">
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline mr-1">Up to 135,000 visitors/month</p>
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline  mr-1">Unlimited Disk space</p>
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline  mr-1">Unlimited Bandwidth</p>
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline  mr-1">Unlimited POP3 Email</p>
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline  mr-1">Unlimited Database</p>
+                    </div>
+                    <div class="mx-auto text-center">
+                        <h1 class="text-2xl md:text-4xl mb-4 font-semibold">$59.99<span class="text-gray-400">/month</span>
+                        </h1>
+                        <p class="text-gray-400 mb-14">Cancel anytime</p>
+                        <button class="bg-gradient-to-br from-secondary to-primary text-white shadow-xl px-10 py-2 rounded-lg">Choose Plan</button>
+                    </div>
+                </div>
+
+                <!-- CARD - 3  -->
+                <div class="flex flex-col items-center md:items-start bg-white p-10 w-full md:w-1/3  rounded-lg">
+                    <div class="pb-14">
+                        <h3 class="text-3xl md:text-4xl font-semibold pb-3">Business Package</h3>
+                        <p class="text-gray-400 class
+                        text-md md:text-lg">Suitable for business website</p>
+                    </div>
+                    <div class="flex flex-col space-y-5 mb-14 text-lg font-semibold">
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline mr-1">Up to 180,000 visitors/month</p>
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline  mr-1">Unlimited Disk space</p>
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline  mr-1">Unlimited Bandwidth</p>
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline  mr-1">Unlimited POP3 Email</p>
+                        <p class="flex items-center "><img src="./images/tick.png" alt="" class="inline  mr-1">Unlimited Database</p>
+                    </div>
+                    <div class="mx-auto text-center">
+                        <h1 class="text-2xl md:text-4xl mb-4 font-semibold">$99.99<span class="text-gray-400">/month</span>
+                        </h1>
+                        <p class="text-gray-400 mb-14">Cancel anytime</p>
+                        <button class="border-2 border-primary text-primary px-10 py-2 rounded-lg">Choose Plan</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+   </section>
+
+
+
+
+   <!-- CUSTOMERS HEADING -->
+   <section id="customers" class="px-2 py-10 bg-gray-200">
+
+    <div class="container mx-auto flex flex-col items-center">
+        <h1 class="text-center text-3xl md:text-5xl font-bold py-5">Our Customers Love Us</h1>
+        <p class="text-center w-full md:max-w-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati sunt quis maiores? Unde quia repellendus quasi possimus quae ipsam ipsa?</p>
+
+    </div>
+
+   </section>
+
+
+   <!-- CUSTOMERS CARDS -->
+   <section id="customers-cards" class="bg-gray-200">
+
+        <div class="container mx-auto py-10 px-2">
+            <!-- ROW - 1 -->
+            <div class="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-5 mb-5">
+                <!-- CARD - 1 -->
+                <div class="w-full md:w-1/2 bg-white p-8 rounded-lg space-y-5">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque iste consequatur sequi cumque tempore harum perferendis aliquid aperiam optio ullam, blanditiis provident error aut sunt quas eaque modi ab architecto? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit odit iste deleniti ipsa, autem porro?</p>
+                    <div class="flex space-x-4">
+                        <img src="./images/IMAGESHERE.png" alt="">
+                        <div>
+                            <p class="font-bold">Michael Andrew</p>
+                            <p>CEO Apple Inc.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD - 2 -->
+                <div class="w-full md:w-1/2 bg-white p-8 rounded-lg space-y-5">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque iste consequatur sequi cumque tempore harum perferendis aliquid aperiam optio ullam, blanditiis provident error aut sunt quas eaque modi ab architecto? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit odit iste deleniti ipsa, autem porro?</p>
+                    <div class="flex space-x-4">
+                        <img src="./images/IMAGESHERE.png" alt="">
+                        <div>
+                            <p class="font-bold">Michael Andrew</p>
+                            <p>CEO Apple Inc.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- ROW - 2 -->
+            <div class="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-5">
+                <!-- CARD - 1 -->
+                <div class="w-full md:w-1/2 bg-white p-8 rounded-lg space-y-5">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque iste consequatur sequi cumque tempore harum perferendis aliquid aperiam optio ullam, blanditiis provident error aut sunt quas eaque modi ab architecto? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit odit iste deleniti ipsa, autem porro?</p>
+                    <div class="flex space-x-4">
+                        <img src="./images/IMAGESHERE.png" alt="">
+                        <div>
+                            <p class="font-bold">Michael Andrew</p>
+                            <p>CEO Apple Inc.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CARD - 2 -->
+                <div class="w-full md:w-1/2 bg-white p-8 rounded-lg space-y-5">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque iste consequatur sequi cumque tempore harum perferendis aliquid aperiam optio ullam, blanditiis provident error aut sunt quas eaque modi ab architecto? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit odit iste deleniti ipsa, autem porro?</p>
+                    <div class="flex space-x-4">
+                        <img src="./images/IMAGESHERE.png" alt="">
+                        <div>
+                            <p class="font-bold">Michael Andrew</p>
+                            <p>CEO Apple Inc.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+   </section>
+
+
+
+   <!-- REGISTER NOW  -->
+   <section id="register" class="py-10 md:py-20 px-2 bg-gradient-to-br from-secondary to-primary text-white">
+
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+
+            <!-- Heading -->
+            <div class="w-full md:w-2/4 text-center md:text-left">
+                <h1 class="text-3xl md:text-5xl pb-4">Quit Worring About Oce-Hosting services</h1>
+                <p class="text-md md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, aut quos! Neque sunt, ad nisi repudiandae sapiente impedit quos minus iste officiis. Illum ipsa qui ex aliquid eligendi nihil dicta!</p>
+            </div>
+
+            <!-- BUTTON -->
+            <div class="w-full md:w-2/4 text-center md:text-right py-8 md:py-0">
+                <button class="border-[1px] border-white px-6 py-2 rounded-md">Register Now</button>
+            </div>
+
+        </div>
+
+   </section>
+
+
+
+   <!-- FOOTER -->
+   <section id="footer" class="py-10 px-2">
+
+        <div class="container mx-auto flex flex-col md:flex-row items-start md:space-x-20">
+
+            <!-- LOGO -->
+            <div class="w-full md:w-1/5 text-center md:text-left">
+                <img src="./images/Logo.png" alt="" class="h-10 md:mx-0 mx-auto">
+                <p class="py-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab culpa aliquid ullam, nemo adipisci provident excepturi ducimus itaque perferendis at.</p>
+            </div>
+
+            <!-- MENU -->
+            <div class="py-5 md:py-0 w-full md:w-1/5 flex flex-col items-center md:items-start space-y-2">
+                <h3 class="font-bold">Menu</h3>
+                <p>Home</p>
+                <p>Covid 19</p>
+                <p>Vaccine Info</p>
+                <p>Contact us</p>
+            </div>
+
+            <!-- LINKS -->
+            <div class="py-5 md:py-0 w-full md:w-1/5 flex flex-col items-center md:items-start space-y-2">
+                <h3 class="font-bold">Links</h3>
+                <p>Partners</p>
+                <p>Carrers</p>
+                <p>Press</p>
+                <p>Community</p>
+            </div>
+
+            <!-- OVERVIEW -->
+            <div class="py-5 md:py-0 w-full md:w-1/5 flex flex-col items-center md:items-start space-y-2">
+                <h3 class="font-bold">Overview</h3>
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p>
+                <p>FAQ</p>
+            </div>
+
+            <!-- SOCIAL MEDIA -->
+            <div class="py-5 md:py-0 w-full md:w-1/5 flex flex-col items-center md:items-start space-y-2">
+                <h3 class="font-bold">Social Media</h3>
+                <div class="flex space-x-2">
+                    <p class="bg-gradient-to-br from-secondary to-primary text-white h-10 w-10 rounded-full text-center pt-2 font-bold">FB</p>
+                    <p class="bg-gradient-to-br from-secondary to-primary text-white h-10 w-10 rounded-full text-center pt-2 font-bold">IG</p>
+                    <p class="bg-gradient-to-br from-secondary to-primary text-white h-10 w-10 rounded-full text-center pt-2 font-bold">YT</p>
+                    <p class="bg-gradient-to-br from-secondary to-primary text-white h-10 w-10 rounded-full text-center pt-2 font-bold">LI</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+   </section>
+
+
+
+
+   <script src="./js/script.js"></script>
+</body>
+</html>
